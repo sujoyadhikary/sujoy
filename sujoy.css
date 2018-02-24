@@ -1,0 +1,26 @@
+* {margin:0;padding: 0;}
+body {}
+.main {width: 1300px;margin: 0 auto}
+.header {}
+.header img {width: 1300px;height: 500px}
+.mainmanu {background: blue;overflow: hidden;margin-bottom: 20px;}
+.mainmanu ul{list-style: none}
+.mainmanu ul li{float: left;margin-left: 90px}
+.mainmanu ul li a{color: yellow;padding: 10px;display: block;text-decoration: none}
+.mainmanu ul li a:hover{background: red}
+.maincontent {overflow: hidden}
+.maincontent h1{margin-bottom: 20px}
+.maincontent p{margin-bottom: 20px}
+.content {width: 950px;float: left}
+.sidebar {float:right;width: 300px;margin-left: 50px}
+.sidebar ul{list-style: none}
+.sidebar ul li{margin-bottom: 20px;border-bottom: 2px dashed darkorange;}
+.sidebar ul li a{color: darkorange;text-decoration: none}
+.footer{background: blue;color: aliceblue;padding: 10px;text-align: center}
+.maincontent .content h1{margin-left: 200px;font-family: 'Rock Salt', cursive;color: red;}
+.maincontent .content p{font-family: 'Pacifico', cursive;}
+.maincontent .content p{font-size: 20px;}
+.sidebar ul li a:hover{background: green}
+.footer p{background-image: url(d.png)}
+.footer p a{text-decoration: none}
+.footer p{font-size: 20px;color: blue;font-family: 'Pacifico', cursive;margin-bottom: 20px}
